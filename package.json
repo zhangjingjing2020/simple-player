@@ -45,7 +45,7 @@
           ]
         }
       ],
-      "VerifyUpdateCodeSignature": false,
+      "verifyUpdateCodeSignature": false,
       "icon": "build/icon.ico",
       "publisherName": "Tn62, Inc."
     }, 
