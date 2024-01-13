@@ -1,4 +1,4 @@
-const { app, BrowserWindow, ipcMain, dialog } = require("electron");
+const { app, BrowserWindow, ipcMain, dialog, Menu } = require("electron");
 const path = require("node:path");
 const DataStore = require("./DataStore");
 
@@ -21,6 +21,11 @@ class AppWindow extends BrowserWindow {
     this.once("ready-to-show", () => {
       this.show();
     });
+
+    // 创建自定义菜单
+    const menu = Menu.buildFromTemplate([]);
+    // 设置应用程序菜单
+    Menu.setApplicationMenu(menu);
   }
 }
 

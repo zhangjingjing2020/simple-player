@@ -34,6 +34,26 @@
         "width": 540,
         "height": 380
       }
+    },
+    "win": {
+      "target": [
+        {
+          "target": "nsis-web",
+          "arch": [
+            "x64",
+            "ia32"
+          ]
+        }
+      ],
+      "VerifyUpdateCodeSignature": false,
+      "icon": "build/icon.ico",
+      "publisherName": "Tn62, Inc."
+    }, 
+    "nsis": {
+      "allowToChangeInstallationDirectory": true,
+      "oneClick": false,
+      "perMachine": false,
+      "artifactName": "${productName}-Setup-${version}-${arch}.${ext}"
     }
   },
   "repository": "https://github.com/electron/electron-quick-start",
