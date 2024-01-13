@@ -56,7 +56,7 @@
       "artifactName": "${productName}-Setup-${version}-${arch}.${ext}"
     }
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "repository": "https://github.com/zhangjingjing2020/simple-player.git",
   "keywords": [
     "Electron",
     "db",
